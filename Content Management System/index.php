@@ -95,7 +95,6 @@ else if ($route === 'admin/pages/delete') {
     $authService = $container->get('authService');
     $authService->ensureLoggedIn();
     
-    // $id = @(int) ($_GET['id'] || 0);
     $pagesAdminController = $container->get('pagesAdminController');
     $pagesAdminController->delete();
 }
