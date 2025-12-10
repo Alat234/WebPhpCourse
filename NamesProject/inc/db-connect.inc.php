@@ -11,8 +11,3 @@ catch (PDOException $e) {
     die();
 }
 
-/*
-$stmt = $pdo->prepare('SELECT * FROM `names`');
-$stmt->execute();
-var_dump($stmt->fetch(PDO::FETCH_ASSOC));
-*/
